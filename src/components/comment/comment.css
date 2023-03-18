@@ -1,0 +1,33 @@
+.comment{
+    width: 100%;
+    margin-top: 10px;
+}
+.commentWrapper{
+    display: flex;
+    align-items: flex-start;
+}
+.commentImg{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #d3d3d3;
+    object-fit: cover;
+    margin-right: 5px;
+}
+.commentContentWrapper{
+    max-width: 100%;
+    border-radius: 15px;
+    background-color: #f0f2f5;
+    min-height: 24px;
+    padding: 8px 12px;
+}
+.commentUserName{
+    font-size: 11px;
+    font-weight: bold;
+    color: #050505;
+    cursor: pointer;
+}
+.commentContent{
+    font-size: 12px;
+    color: #050505;
+}

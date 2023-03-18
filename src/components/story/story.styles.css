@@ -1,0 +1,54 @@
+.story {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px -1px rgba(56, 56, 56, 0.75);
+    -webkit-box-shadow: 0px 1px 2px -1px rgba(56, 56, 56, 0.75);
+    -moz-box-shadow: 0px 1px 2px -1px rgba(56, 56, 56, 0.75);
+    margin-bottom: 10px;
+    background-color: white;
+}
+.storyWrapper {
+    padding: 10px;
+}
+
+.storyCenter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+
+.storyItem {
+    height: 160px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px -1px rgba(56, 56, 56, 0.75);
+    -webkit-box-shadow: 0px 1px 2px -1px rgba(56, 56, 56, 0.75);
+    -moz-box-shadow: 0px 1px 2px -1px rgba(56, 56, 56, 0.75);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: white;
+    margin-right: 10px;
+}
+
+.storyUserName {
+    position:absolute;
+    bottom:0;
+	padding:10px 10px; 
+    font-size: 13px;
+}
+
+.storyUser {
+    background-image: url(https://any.ge/assets/images/favicon-32x32.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #3877e1;
+}
